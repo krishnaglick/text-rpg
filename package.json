@@ -1,0 +1,14 @@
+{
+  "name": "text-rpg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "globby": "^6.1.0",
+    "inquirer": "^3.2.2"
+  }
+}
