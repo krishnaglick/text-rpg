@@ -9,6 +9,7 @@ if(!fs.existsSync(classesPath))
 
 const menuOptions = {
   'Add Class': require('../helpers/add-class'),
+  'Edit Class': require('../helpers/edit-class'),
   'Remove Class': require('../helpers/remove-class')
 };
 
@@ -21,7 +22,7 @@ exports.action = async (goBack) => {
     choices: Object.keys(menuOptions)
   });
 
-  menuOptions[choice](exports.action);
+  menuOptions[choice](() => exports.action(goBack));
 };
 
 exports.name = 'Manage Classes';

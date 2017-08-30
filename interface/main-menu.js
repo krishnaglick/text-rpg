@@ -18,7 +18,7 @@ exports.action = async () => {
     type: 'list',
     message: 'What would you like to do?',
     name: 'choice',
-    choices: Object.keys(menuOptions)
+    choices: Object.keys(menuOptions).sort((a,b) => a < b)
   });
 
   menuOptions[choice](exports.action);

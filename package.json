@@ -7,8 +7,11 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "babel-eslint": "^7.2.3",
     "globby": "^6.1.0",
     "inquirer": "^3.2.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.5.0"
   }
 }
