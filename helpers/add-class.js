@@ -2,6 +2,8 @@
 const fs = require('fs');
 const path = require('path');
 
+const classBase = {};
+
 const ask = require('./ask-question');
 module.exports = async (goBack) => {
   const className = await ask('What would you like to name the class?');
