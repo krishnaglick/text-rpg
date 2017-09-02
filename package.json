@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "globby": "^6.1.0",
-    "inquirer": "^3.2.2"
+    "inquirer": "^3.2.2",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

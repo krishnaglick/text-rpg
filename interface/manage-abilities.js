@@ -3,11 +3,12 @@ const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
 
-const classesPath = path.resolve(__dirname + '/../classes');
+const classesPath = path.resolve(__dirname + '/../abilities');
 if(!fs.existsSync(classesPath))
   fs.mkdirSync(classesPath);
 
-const { add, edit, remove } = require('../helpers/classes');
+const { add, edit, remove } = {};
+
 const menuOptions = {
   'Add Class': add,
   'Edit Class': edit,
@@ -23,13 +24,7 @@ exports.action = async (goBack) => {
     choices: Object.keys(menuOptions)
   });
 
-  try {
-    menuOptions[choice](() => exports.action(goBack));
-  }
-  catch(x) {
-    console.error(x);
-    exports.action(goBack);
-  }
+  menuOptions[choice](() => exports.action(goBack));
 };
 
-exports.name = 'Manage Classes';
+exports.name = 'Manage Abilities';
