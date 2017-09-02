@@ -1,0 +1,33 @@
+{
+    "title": "Curaga",
+    "powerType": 1,
+    "power": 80,
+    "mpCost": 16,
+    "charge": 1,
+    "element": 7,
+    "rangeType": 2,
+    "range": 4,
+    "areaType": 2,
+    "horArea": 1,
+    "verArea": 3,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 2,
+            "target": 6,
+            "dependency": 0,
+            "result": "100% Heal"
+        },
+        {
+            "rate": 0,
+            "target": 5,
+            "dependency": 0,
+            "result": "100% Damage"
+        }
+    ],
+    "notes": [
+        1,
+        3,
+        4
+    ]
+}

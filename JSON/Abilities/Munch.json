@@ -1,0 +1,25 @@
+{
+    "title": "Munch",
+    "powerType": 2,
+    "power": 47,
+    "mpCost": 0,
+    "charge": 0,
+    "element": 0,
+    "rangeType": 2,
+    "range": 1,
+    "areaType": 1,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 0,
+            "target": 7,
+            "dependency": 0,
+            "result": "100% Damage"
+        }
+    ],
+    "notes": [
+        0
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "title": "Holy",
+    "powerType": 1,
+    "power": 50,
+    "mpCost": 32,
+    "charge": 1,
+    "element": 7,
+    "rangeType": 2,
+    "range": 3,
+    "areaType": 2,
+    "horArea": 1,
+    "verArea": 1,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 0,
+            "target": 0,
+            "dependency": 0,
+            "result": "100% Damage"
+        }
+    ],
+    "notes": [
+        0,
+        3,
+        4,
+        5,
+        6
+    ]
+}

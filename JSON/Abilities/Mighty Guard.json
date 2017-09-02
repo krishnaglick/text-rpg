@@ -1,0 +1,29 @@
+{
+    "title": "Mighty Guard",
+    "powerType": 0,
+    "power": 0,
+    "mpCost": 8,
+    "charge": 0,
+    "element": 0,
+    "rangeType": 2,
+    "range": 1,
+    "areaType": 1,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 2,
+            "target": 0,
+            "dependency": 0,
+            "result": "Inflict MRes UP"
+        },
+        {
+            "rate": 2,
+            "target": 0,
+            "dependency": 0,
+            "result": "Inflict WDef UP"
+        }
+    ],
+    "notes": []
+}

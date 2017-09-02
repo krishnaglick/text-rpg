@@ -1,0 +1,21 @@
+{
+    "title": "Friend",
+    "powerType": 0,
+    "power": 0,
+    "mpCost": 12,
+    "charge": 0,
+    "element": 0,
+    "rangeType": 2,
+    "range": 4,
+    "areaType": 2,
+    "horArea": 2,
+    "verArea": 2,
+    "excludeSelf": false,
+    "effects": [],
+    "notes": [
+        3,
+        4,
+        5,
+        6
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "title": "Earth Veil",
+    "powerType": 1,
+    "power": 15,
+    "mpCost": 4,
+    "charge": 1,
+    "element": 5,
+    "rangeType": 2,
+    "range": 4,
+    "areaType": 1,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 0,
+            "target": 0,
+            "dependency": 0,
+            "result": "100% Damage"
+        },
+        {
+            "rate": 1,
+            "target": 0,
+            "dependency": 5,
+            "result": " Inflict Slow"
+        },
+        {
+            "rate": 2,
+            "target": 0,
+            "dependency": 5,
+            "result": " Delay Unit"
+        }
+    ],
+    "notes": [
+        0,
+        3,
+        4,
+        6
+    ]
+}

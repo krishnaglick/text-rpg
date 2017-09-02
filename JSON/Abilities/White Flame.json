@@ -1,0 +1,26 @@
+{
+    "title": "White Flame",
+    "powerType": 1,
+    "power": 40,
+    "mpCost": 24,
+    "charge": 1,
+    "element": 1,
+    "rangeType": 2,
+    "range": 3,
+    "areaType": 2,
+    "horArea": 1,
+    "verArea": 2,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 2,
+            "target": 0,
+            "dependency": 0,
+            "result": "100% Heal"
+        }
+    ],
+    "notes": [
+        3,
+        4
+    ]
+}

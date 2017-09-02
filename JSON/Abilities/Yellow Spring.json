@@ -1,0 +1,31 @@
+{
+    "title": "Yellow Spring",
+    "powerType": 0,
+    "power": 0,
+    "mpCost": 12,
+    "charge": 0,
+    "element": 0,
+    "rangeType": 6,
+    "range": 0,
+    "areaType": 3,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 2,
+            "target": 11,
+            "dependency": 0,
+            "result": "Inflict Shell"
+        },
+        {
+            "rate": 2,
+            "target": 11,
+            "dependency": 0,
+            "result": "Inflict Protect"
+        }
+    ],
+    "notes": [
+        4
+    ]
+}

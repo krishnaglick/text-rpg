@@ -1,0 +1,27 @@
+{
+    "title": "Esuna",
+    "powerType": 0,
+    "power": 0,
+    "mpCost": 18,
+    "charge": 0,
+    "element": 0,
+    "rangeType": 2,
+    "range": 4,
+    "areaType": 2,
+    "horArea": 1,
+    "verArea": 2,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 2,
+            "target": 0,
+            "dependency": 0,
+            "result": "Esuna"
+        }
+    ],
+    "notes": [
+        1,
+        3,
+        4
+    ]
+}

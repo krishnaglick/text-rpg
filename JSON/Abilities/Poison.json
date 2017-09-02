@@ -1,0 +1,28 @@
+{
+    "title": "Poison",
+    "powerType": 0,
+    "power": 0,
+    "mpCost": 10,
+    "charge": 1,
+    "element": 8,
+    "rangeType": 2,
+    "range": 4,
+    "areaType": 2,
+    "horArea": 1,
+    "verArea": 2,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 1,
+            "target": 0,
+            "dependency": 0,
+            "result": "Inflict Poison"
+        }
+    ],
+    "notes": [
+        0,
+        3,
+        4,
+        5
+    ]
+}

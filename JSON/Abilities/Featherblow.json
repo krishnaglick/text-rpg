@@ -1,0 +1,26 @@
+{
+    "title": "Featherblow",
+    "powerType": 3,
+    "power": 0,
+    "mpCost": 0,
+    "charge": 2,
+    "element": 0,
+    "rangeType": 3,
+    "range": 0,
+    "areaType": 1,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 0,
+            "target": 0,
+            "dependency": 0,
+            "result": "50% Damage, 2.0x Hit Rate"
+        }
+    ],
+    "notes": [
+        0,
+        4
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "title": "Chill",
+    "powerType": 1,
+    "power": 40,
+    "mpCost": 0,
+    "charge": 1,
+    "element": 2,
+    "rangeType": 0,
+    "range": 0,
+    "areaType": 2,
+    "horArea": 1,
+    "verArea": 2,
+    "excludeSelf": true,
+    "effects": [
+        {
+            "rate": 2,
+            "target": 0,
+            "dependency": 0,
+            "result": "100% Damage"
+        },
+        {
+            "rate": 2,
+            "target": 2,
+            "dependency": 0,
+            "result": "100% Damage"
+        }
+    ],
+    "notes": [
+        0
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "title": "Flan",
+    "powerType": 0,
+    "power": 0,
+    "mpCost": 0,
+    "charge": 0,
+    "element": 0,
+    "rangeType": 0,
+    "range": 0,
+    "areaType": 0,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 2,
+            "target": 0,
+            "dependency": 0,
+            "result": "Morph Effect"
+        }
+    ],
+    "notes": [
+        3
+    ]
+}

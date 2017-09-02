@@ -1,0 +1,32 @@
+{
+    "title": "Tremor",
+    "powerType": 2,
+    "power": 30,
+    "mpCost": 0,
+    "charge": 0,
+    "element": 0,
+    "rangeType": 0,
+    "range": 0,
+    "areaType": 2,
+    "horArea": 1,
+    "verArea": 2,
+    "excludeSelf": true,
+    "effects": [
+        {
+            "rate": 0,
+            "target": 0,
+            "dependency": 0,
+            "result": "100% Damage"
+        },
+        {
+            "rate": 2,
+            "target": 0,
+            "dependency": 5,
+            "result": " Knockback"
+        }
+    ],
+    "notes": [
+        0,
+        4
+    ]
+}

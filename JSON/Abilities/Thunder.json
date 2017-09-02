@@ -1,0 +1,30 @@
+{
+    "title": "Thunder",
+    "powerType": 1,
+    "power": 30,
+    "mpCost": 6,
+    "charge": 1,
+    "element": 3,
+    "rangeType": 2,
+    "range": 4,
+    "areaType": 2,
+    "horArea": 1,
+    "verArea": 1,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 0,
+            "target": 0,
+            "dependency": 0,
+            "result": "100% Damage"
+        }
+    ],
+    "notes": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+    ]
+}

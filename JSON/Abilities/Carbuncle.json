@@ -1,0 +1,26 @@
+{
+    "title": "Carbuncle",
+    "powerType": 0,
+    "power": 0,
+    "mpCost": 12,
+    "charge": 0,
+    "element": 0,
+    "rangeType": 2,
+    "range": 4,
+    "areaType": 2,
+    "horArea": 2,
+    "verArea": 2,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 2,
+            "target": 0,
+            "dependency": 0,
+            "result": "Inflict Reflect"
+        }
+    ],
+    "notes": [
+        3,
+        4
+    ]
+}

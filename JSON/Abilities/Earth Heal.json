@@ -1,0 +1,26 @@
+{
+    "title": "Earth Heal",
+    "powerType": 1,
+    "power": 40,
+    "mpCost": 12,
+    "charge": 1,
+    "element": 5,
+    "rangeType": 2,
+    "range": 4,
+    "areaType": 1,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 2,
+            "target": 0,
+            "dependency": 0,
+            "result": "100% Heal"
+        }
+    ],
+    "notes": [
+        3,
+        4
+    ]
+}

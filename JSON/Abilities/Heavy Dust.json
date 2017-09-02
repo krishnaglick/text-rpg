@@ -1,0 +1,35 @@
+{
+    "title": "Heavy Dust",
+    "powerType": 1,
+    "power": 30,
+    "mpCost": 12,
+    "charge": 1,
+    "element": 5,
+    "rangeType": 2,
+    "range": 4,
+    "areaType": 1,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 0,
+            "target": 0,
+            "dependency": 0,
+            "result": "100% Damage"
+        },
+        {
+            "rate": 1,
+            "target": 0,
+            "dependency": 5,
+            "result": " Inflict Immobilize"
+        }
+    ],
+    "notes": [
+        0,
+        3,
+        4,
+        5,
+        6
+    ]
+}

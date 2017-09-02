@@ -1,0 +1,27 @@
+{
+    "title": "Ice Sword",
+    "powerType": 2,
+    "power": 54,
+    "mpCost": 10,
+    "charge": 1,
+    "element": 2,
+    "rangeType": 2,
+    "range": 1,
+    "areaType": 1,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 0,
+            "target": 0,
+            "dependency": 0,
+            "result": "100% Damage"
+        }
+    ],
+    "notes": [
+        0,
+        4,
+        6
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "title": "Descent",
+    "powerType": 0,
+    "power": 0,
+    "mpCost": 0,
+    "charge": 0,
+    "element": 0,
+    "rangeType": 6,
+    "range": 0,
+    "areaType": 3,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 0,
+            "target": 4,
+            "dependency": 0,
+            "result": "100% Damage"
+        }
+    ],
+    "notes": [
+        3
+    ]
+}

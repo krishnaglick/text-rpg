@@ -1,0 +1,25 @@
+{
+    "title": "Magic Hammer",
+    "powerType": 2,
+    "power": 38,
+    "mpCost": 8,
+    "charge": 0,
+    "element": 0,
+    "rangeType": 2,
+    "range": 3,
+    "areaType": 1,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 0,
+            "target": 0,
+            "dependency": 0,
+            "result": "100% Damage to MP, capped to Target's MP"
+        }
+    ],
+    "notes": [
+        0
+    ]
+}

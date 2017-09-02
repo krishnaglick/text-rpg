@@ -1,0 +1,19 @@
+{
+    "title": "Drop Weapon",
+    "powerType": 0,
+    "power": 0,
+    "mpCost": 0,
+    "charge": 0,
+    "element": 0,
+    "rangeType": 3,
+    "range": 0,
+    "areaType": 1,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [],
+    "notes": [
+        0,
+        4
+    ]
+}

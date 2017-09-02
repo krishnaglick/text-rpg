@@ -1,0 +1,31 @@
+{
+    "title": "Roulette",
+    "powerType": 0,
+    "power": 0,
+    "mpCost": 20,
+    "charge": 1,
+    "element": 8,
+    "rangeType": 6,
+    "range": 0,
+    "areaType": 3,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 2,
+            "target": 6,
+            "dependency": 0,
+            "result": "Inflict KO"
+        },
+        {
+            "rate": 2,
+            "target": 5,
+            "dependency": 0,
+            "result": "Heal to full HP"
+        }
+    ],
+    "notes": [
+        0
+    ]
+}

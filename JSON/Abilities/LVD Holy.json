@@ -1,0 +1,26 @@
+{
+    "title": "LV?D Holy",
+    "powerType": 1,
+    "power": 65,
+    "mpCost": 32,
+    "charge": 1,
+    "element": 7,
+    "rangeType": 6,
+    "range": 0,
+    "areaType": 3,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 2,
+            "target": 14,
+            "dependency": 0,
+            "result": "100% Damage"
+        }
+    ],
+    "notes": [
+        0,
+        6
+    ]
+}

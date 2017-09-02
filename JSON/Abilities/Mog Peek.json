@@ -1,0 +1,25 @@
+{
+    "title": "Mog Peek",
+    "powerType": 0,
+    "power": 0,
+    "mpCost": 0,
+    "charge": 0,
+    "element": 0,
+    "rangeType": 2,
+    "range": 4,
+    "areaType": 1,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 2,
+            "target": 4,
+            "dependency": 0,
+            "result": "Detect Hidden Items"
+        }
+    ],
+    "notes": [
+        4
+    ]
+}

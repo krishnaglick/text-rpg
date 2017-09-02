@@ -1,0 +1,26 @@
+{
+    "title": "Steal: JP",
+    "powerType": 0,
+    "power": 0,
+    "mpCost": 0,
+    "charge": 0,
+    "element": 0,
+    "rangeType": 2,
+    "range": 1,
+    "areaType": 1,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 0,
+            "target": 4,
+            "dependency": 0,
+            "result": "Steal JP"
+        }
+    ],
+    "notes": [
+        0,
+        4
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "title": "Life",
+    "powerType": 1,
+    "power": 90,
+    "mpCost": 10,
+    "charge": 1,
+    "element": 7,
+    "rangeType": 2,
+    "range": 4,
+    "areaType": 1,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 2,
+            "target": 1,
+            "dependency": 0,
+            "result": "Revive to 25% HP"
+        },
+        {
+            "rate": 0,
+            "target": 5,
+            "dependency": 0,
+            "result": "100% Damage"
+        }
+    ],
+    "notes": [
+        1,
+        3,
+        4
+    ]
+}

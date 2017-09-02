@@ -1,0 +1,28 @@
+{
+    "title": "Judge",
+    "powerType": 0,
+    "power": 0,
+    "mpCost": 6,
+    "charge": 0,
+    "element": 0,
+    "rangeType": 2,
+    "range": 3,
+    "areaType": 1,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 0,
+            "target": 0,
+            "dependency": 0,
+            "result": "Steal 2 JP"
+        }
+    ],
+    "notes": [
+        0,
+        3,
+        4,
+        5
+    ]
+}

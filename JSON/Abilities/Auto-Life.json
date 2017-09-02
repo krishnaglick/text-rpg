@@ -1,0 +1,27 @@
+{
+    "title": "Auto-Life",
+    "powerType": 0,
+    "power": 0,
+    "mpCost": 16,
+    "charge": 1,
+    "element": 7,
+    "rangeType": 2,
+    "range": 4,
+    "areaType": 1,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 2,
+            "target": 6,
+            "dependency": 0,
+            "result": "Inflict Auto-Life"
+        }
+    ],
+    "notes": [
+        1,
+        3,
+        4
+    ]
+}

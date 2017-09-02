@@ -1,0 +1,28 @@
+{
+    "title": "Rasp",
+    "powerType": 1,
+    "power": 60,
+    "mpCost": 24,
+    "charge": 0,
+    "element": 0,
+    "rangeType": 2,
+    "range": 3,
+    "areaType": 2,
+    "horArea": 1,
+    "verArea": 1,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 0,
+            "target": 0,
+            "dependency": 0,
+            "result": "100% Damage to MP, capped to Target's MP"
+        }
+    ],
+    "notes": [
+        0,
+        3,
+        4,
+        5
+    ]
+}

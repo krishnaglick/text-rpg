@@ -1,0 +1,28 @@
+{
+    "title": "Wild Tornado",
+    "powerType": 1,
+    "power": 17,
+    "mpCost": 32,
+    "charge": 1,
+    "element": 6,
+    "rangeType": 6,
+    "range": 0,
+    "areaType": 3,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 0,
+            "target": 4,
+            "dependency": 0,
+            "result": "100% Damage"
+        }
+    ],
+    "notes": [
+        0,
+        3,
+        4,
+        6
+    ]
+}

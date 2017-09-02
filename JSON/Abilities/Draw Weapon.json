@@ -1,0 +1,25 @@
+{
+    "title": "Draw Weapon",
+    "powerType": 0,
+    "power": 0,
+    "mpCost": 0,
+    "charge": 0,
+    "element": 0,
+    "rangeType": 0,
+    "range": 0,
+    "areaType": 0,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 2,
+            "target": 2,
+            "dependency": 0,
+            "result": "Draw Weapon"
+        }
+    ],
+    "notes": [
+        4
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "title": "LV? S-Flare",
+    "powerType": 2,
+    "power": 55,
+    "mpCost": 30,
+    "charge": 1,
+    "element": 8,
+    "rangeType": 6,
+    "range": 0,
+    "areaType": 3,
+    "horArea": 0,
+    "verArea": 0,
+    "excludeSelf": false,
+    "effects": [
+        {
+            "rate": 2,
+            "target": 6,
+            "dependency": 3,
+            "result": " 100% Damage"
+        },
+        {
+            "rate": 2,
+            "target": 5,
+            "dependency": 3,
+            "result": " 100% Heal"
+        }
+    ],
+    "notes": [
+        0,
+        6
+    ]
+}
