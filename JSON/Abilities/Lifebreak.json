@@ -1,32 +1,32 @@
 {
-    "title": "Lifebreak",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 0,
-    "charge": 1,
-    "element": 8,
-    "rangeType": 3,
-    "range": 0,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 6,
-            "dependency": 0,
-            "result": "(Caster's Max HP - Caster's HP) Damage"
-        },
-        {
-            "rate": 2,
-            "target": 5,
-            "dependency": 0,
-            "result": "Heal (Caster's Max HP - Caster's HP) Damage"
-        }
-    ],
-    "notes": [
-        0,
-        4
-    ]
+  "title": "Lifebreak",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 0,
+  "charge": "Elemental",
+  "element": "Dark",
+  "rangeType": "Weapon",
+  "range": 0,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "NonUndead",
+      "dependency": "None",
+      "result": "(Caster's Max HP - Caster's HP) Damage"
+    },
+    {
+      "rate": "Full",
+      "target": "Undead",
+      "dependency": "None",
+      "result": "Heal (Caster's Max HP - Caster's HP) Damage"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Stealable"
+  ]
 }

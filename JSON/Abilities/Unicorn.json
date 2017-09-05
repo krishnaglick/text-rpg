@@ -1,38 +1,38 @@
 {
-    "title": "Unicorn",
-    "powerType": 1,
-    "power": 40,
-    "mpCost": 12,
-    "charge": 1,
-    "element": 7,
-    "rangeType": 2,
-    "range": 4,
-    "areaType": 2,
-    "horArea": 2,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 6,
-            "dependency": 0,
-            "result": "100% Heal"
-        },
-        {
-            "rate": 2,
-            "target": 6,
-            "dependency": 0,
-            "result": "Esuna"
-        },
-        {
-            "rate": 0,
-            "target": 5,
-            "dependency": 0,
-            "result": "100% Damage"
-        }
-    ],
-    "notes": [
-        3,
-        4
-    ]
+  "title": "Unicorn",
+  "powerType": "MPow",
+  "power": 40,
+  "mpCost": 12,
+  "charge": "Elemental",
+  "element": "Holy",
+  "rangeType": "Constant",
+  "range": 4,
+  "areaType": "Specify",
+  "horArea": 2,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "NonUndead",
+      "dependency": "None",
+      "result": "100% Heal"
+    },
+    {
+      "rate": "Full",
+      "target": "NonUndead",
+      "dependency": "None",
+      "result": "Esuna"
+    },
+    {
+      "rate": "AType",
+      "target": "Undead",
+      "dependency": "None",
+      "result": "100% Damage"
+    }
+  ],
+  "notes": [
+    "Silenceable",
+    "Stealable"
+  ]
 }

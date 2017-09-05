@@ -1,26 +1,26 @@
 {
-    "title": "Death Sickle",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 0,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 3,
-    "range": 0,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 1,
-            "target": 6,
-            "dependency": 0,
-            "result": "Inflict Doom"
-        }
-    ],
-    "notes": [
-        0,
-        4
-    ]
+  "title": "Death Sickle",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 0,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Weapon",
+  "range": 0,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "SType",
+      "target": "NonUndead",
+      "dependency": "None",
+      "result": "Inflict Doom"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Stealable"
+  ]
 }

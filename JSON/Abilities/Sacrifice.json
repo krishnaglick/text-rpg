@@ -1,35 +1,35 @@
 {
-    "title": "Sacrifice",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 0,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 2,
-    "range": 1,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 0,
-            "result": "Heal to full HP"
-        },
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 0,
-            "result": "Esuna"
-        },
-        {
-            "rate": 2,
-            "target": 2,
-            "dependency": 0,
-            "result": "Max HP Damage"
-        }
-    ],
-    "notes": []
+  "title": "Sacrifice",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 0,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Constant",
+  "range": 1,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Heal to full HP"
+    },
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Esuna"
+    },
+    {
+      "rate": "Full",
+      "target": "Self",
+      "dependency": "None",
+      "result": "Max HP Damage"
+    }
+  ],
+  "notes": []
 }

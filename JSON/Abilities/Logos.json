@@ -1,38 +1,38 @@
 {
-    "title": "Logos",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 0,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 2,
-    "range": 3,
-    "areaType": 2,
-    "horArea": 1,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 1,
-            "target": 0,
-            "dependency": 0,
-            "result": "Inflict WAtk DOWN"
-        },
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 5,
-            "result": " Inflict MPow DOWN"
-        },
-        {
-            "rate": 1,
-            "target": 4,
-            "dependency": 0,
-            "result": "Inflict Charm"
-        }
-    ],
-    "notes": [
-        0,
-        3
-    ]
+  "title": "Logos",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 0,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Constant",
+  "range": 3,
+  "areaType": "Specify",
+  "horArea": 1,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "SType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Inflict WAtk DOWN"
+    },
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "Eff1Dep",
+      "result": " Inflict MPow DOWN"
+    },
+    {
+      "rate": "SType",
+      "target": "Enemy",
+      "dependency": "None",
+      "result": "Inflict Charm"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Silenceable"
+  ]
 }

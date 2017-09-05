@@ -1,38 +1,38 @@
 {
-    "title": "Raise",
-    "powerType": 1,
-    "power": 45,
-    "mpCost": 22,
-    "charge": 1,
-    "element": 7,
-    "rangeType": 2,
-    "range": 4,
-    "areaType": 2,
-    "horArea": 1,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 6,
-            "dependency": 0,
-            "result": "100% Heal"
-        },
-        {
-            "rate": 0,
-            "target": 5,
-            "dependency": 0,
-            "result": "100% Damage"
-        },
-        {
-            "rate": 2,
-            "target": 1,
-            "dependency": 0,
-            "result": "Revive to 25% HP"
-        }
-    ],
-    "notes": [
-        3,
-        4
-    ]
+  "title": "Raise",
+  "powerType": "MPow",
+  "power": 45,
+  "mpCost": 22,
+  "charge": "Elemental",
+  "element": "Holy",
+  "rangeType": "Constant",
+  "range": 4,
+  "areaType": "Specify",
+  "horArea": 1,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "NonUndead",
+      "dependency": "None",
+      "result": "100% Heal"
+    },
+    {
+      "rate": "AType",
+      "target": "Undead",
+      "dependency": "None",
+      "result": "100% Damage"
+    },
+    {
+      "rate": "Full",
+      "target": "KOedUnit",
+      "dependency": "None",
+      "result": "Revive to 25% HP"
+    }
+  ],
+  "notes": [
+    "Silenceable",
+    "Stealable"
+  ]
 }

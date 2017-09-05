@@ -1,41 +1,41 @@
 {
-    "title": "Evil Gaze",
-    "powerType": 1,
-    "power": 30,
-    "mpCost": 12,
-    "charge": 1,
-    "element": 8,
-    "rangeType": 2,
-    "range": 4,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 5,
-            "dependency": 0,
-            "result": "100% Heal"
-        },
-        {
-            "rate": 0,
-            "target": 6,
-            "dependency": 0,
-            "result": "100% Damage"
-        },
-        {
-            "rate": 1,
-            "target": 6,
-            "dependency": 6,
-            "result": " Inflict Confuse"
-        }
-    ],
-    "notes": [
-        0,
-        3,
-        4,
-        5,
-        6
-    ]
+  "title": "Evil Gaze",
+  "powerType": "MPow",
+  "power": 30,
+  "mpCost": 12,
+  "charge": "Elemental",
+  "element": "Dark",
+  "rangeType": "Constant",
+  "range": 4,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Undead",
+      "dependency": "None",
+      "result": "100% Heal"
+    },
+    {
+      "rate": "AType",
+      "target": "NonUndead",
+      "dependency": "None",
+      "result": "100% Damage"
+    },
+    {
+      "rate": "SType",
+      "target": "NonUndead",
+      "dependency": "Eff2Dep",
+      "result": " Inflict Confuse"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Silenceable",
+    "Stealable",
+    "Counter",
+    "Absorb"
+  ]
 }

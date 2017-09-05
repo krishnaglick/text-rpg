@@ -1,26 +1,26 @@
 {
-    "title": "Magi",
-    "powerType": 1,
-    "power": 50,
-    "mpCost": 0,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 6,
-    "range": 0,
-    "areaType": 3,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 4,
-            "dependency": 0,
-            "result": "100% Damage"
-        }
-    ],
-    "notes": [
-        0,
-        3
-    ]
+  "title": "Magi",
+  "powerType": "MPow",
+  "power": 50,
+  "mpCost": 0,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Infinite",
+  "range": 0,
+  "areaType": "Infinite",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Enemy",
+      "dependency": "None",
+      "result": "100% Damage"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Silenceable"
+  ]
 }

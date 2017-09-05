@@ -1,29 +1,29 @@
 {
-    "title": "Water",
-    "powerType": 1,
-    "power": 34,
-    "mpCost": 12,
-    "charge": 1,
-    "element": 4,
-    "rangeType": 2,
-    "range": 3,
-    "areaType": 2,
-    "horArea": 1,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Damage"
-        }
-    ],
-    "notes": [
-        0,
-        3,
-        4,
-        5,
-        6
-    ]
+  "title": "Water",
+  "powerType": "MPow",
+  "power": 34,
+  "mpCost": 12,
+  "charge": "Elemental",
+  "element": "Water",
+  "rangeType": "Constant",
+  "range": 3,
+  "areaType": "Specify",
+  "horArea": 1,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Damage"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Silenceable",
+    "Stealable",
+    "Counter",
+    "Absorb"
+  ]
 }

@@ -1,21 +1,21 @@
 {
-    "title": "Friend",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 12,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 2,
-    "range": 4,
-    "areaType": 2,
-    "horArea": 2,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [],
-    "notes": [
-        3,
-        4,
-        5,
-        6
-    ]
+  "title": "Friend",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 12,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Constant",
+  "range": 4,
+  "areaType": "Specify",
+  "horArea": 2,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [],
+  "notes": [
+    "Silenceable",
+    "Stealable",
+    "Counter",
+    "Absorb"
+  ]
 }

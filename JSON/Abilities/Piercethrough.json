@@ -1,26 +1,26 @@
 {
-    "title": "Piercethrough",
-    "powerType": 3,
-    "power": 0,
-    "mpCost": 0,
-    "charge": 2,
-    "element": 0,
-    "rangeType": 4,
-    "range": 0,
-    "areaType": 2,
-    "horArea": 2,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Damage"
-        }
-    ],
-    "notes": [
-        0,
-        4
-    ]
+  "title": "Piercethrough",
+  "powerType": "Weapon",
+  "power": 0,
+  "mpCost": 0,
+  "charge": "Weapon",
+  "element": "None",
+  "rangeType": "Line",
+  "range": 0,
+  "areaType": "Specify",
+  "horArea": 2,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Damage"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Stealable"
+  ]
 }

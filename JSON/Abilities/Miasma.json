@@ -1,31 +1,31 @@
 {
-    "title": "Miasma",
-    "powerType": 2,
-    "power": 20,
-    "mpCost": 0,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 2,
-    "range": 3,
-    "areaType": 2,
-    "horArea": 1,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Damage"
-        },
-        {
-            "rate": 1,
-            "target": 0,
-            "dependency": 5,
-            "result": " Inflict Poison"
-        }
-    ],
-    "notes": [
-        0
-    ]
+  "title": "Miasma",
+  "powerType": "WAtk",
+  "power": 20,
+  "mpCost": 0,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Constant",
+  "range": 3,
+  "areaType": "Specify",
+  "horArea": 1,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Damage"
+    },
+    {
+      "rate": "SType",
+      "target": "Default",
+      "dependency": "Eff1Dep",
+      "result": " Inflict Poison"
+    }
+  ],
+  "notes": [
+    "Offensive"
+  ]
 }

@@ -1,31 +1,31 @@
 {
-    "title": "Aura",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 0,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 0,
-    "range": 0,
-    "areaType": 0,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 6,
-            "dependency": 0,
-            "result": "Inflict Auto-Life"
-        },
-        {
-            "rate": 2,
-            "target": 6,
-            "dependency": 0,
-            "result": "Inflict Regen"
-        }
-    ],
-    "notes": [
-        4
-    ]
+  "title": "Aura",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 0,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Self",
+  "range": 0,
+  "areaType": "Self",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "NonUndead",
+      "dependency": "None",
+      "result": "Inflict Auto-Life"
+    },
+    {
+      "rate": "Full",
+      "target": "NonUndead",
+      "dependency": "None",
+      "result": "Inflict Regen"
+    }
+  ],
+  "notes": [
+    "Stealable"
+  ]
 }

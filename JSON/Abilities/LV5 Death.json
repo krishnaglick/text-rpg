@@ -1,31 +1,31 @@
 {
-    "title": "LV5 Death",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 24,
-    "charge": 1,
-    "element": 8,
-    "rangeType": 2,
-    "range": 3,
-    "areaType": 2,
-    "horArea": 1,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 6,
-            "dependency": 2,
-            "result": " Inflict KO"
-        },
-        {
-            "rate": 2,
-            "target": 5,
-            "dependency": 2,
-            "result": " Heal to full HP"
-        }
-    ],
-    "notes": [
-        0
-    ]
+  "title": "LV5 Death",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 24,
+  "charge": "Elemental",
+  "element": "Dark",
+  "rangeType": "Constant",
+  "range": 3,
+  "areaType": "Specify",
+  "horArea": 1,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "NonUndead",
+      "dependency": "LvlDivBy5",
+      "result": " Inflict KO"
+    },
+    {
+      "rate": "Full",
+      "target": "Undead",
+      "dependency": "LvlDivBy5",
+      "result": " Heal to full HP"
+    }
+  ],
+  "notes": [
+    "Offensive"
+  ]
 }

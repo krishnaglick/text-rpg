@@ -1,25 +1,25 @@
 {
-    "title": "Stare",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 12,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 1,
-    "range": 0,
-    "areaType": 2,
-    "horArea": 1,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 4,
-            "result": " Inflict Confusion"
-        }
-    ],
-    "notes": [
-        0
-    ]
+  "title": "Stare",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 12,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Cone",
+  "range": 0,
+  "areaType": "Specify",
+  "horArea": 1,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "Eye2Eye",
+      "result": " Inflict Confusion"
+    }
+  ],
+  "notes": [
+    "Offensive"
+  ]
 }

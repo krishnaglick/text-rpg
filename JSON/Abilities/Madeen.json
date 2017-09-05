@@ -1,29 +1,29 @@
 {
-    "title": "Madeen",
-    "powerType": 1,
-    "power": 52,
-    "mpCost": 36,
-    "charge": 1,
-    "element": 7,
-    "rangeType": 2,
-    "range": 4,
-    "areaType": 2,
-    "horArea": 2,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Damage"
-        }
-    ],
-    "notes": [
-        0,
-        3,
-        4,
-        5,
-        6
-    ]
+  "title": "Madeen",
+  "powerType": "MPow",
+  "power": 52,
+  "mpCost": 36,
+  "charge": "Elemental",
+  "element": "Holy",
+  "rangeType": "Constant",
+  "range": 4,
+  "areaType": "Specify",
+  "horArea": 2,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Damage"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Silenceable",
+    "Stealable",
+    "Counter",
+    "Absorb"
+  ]
 }

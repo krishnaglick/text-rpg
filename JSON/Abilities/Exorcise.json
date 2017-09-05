@@ -1,26 +1,26 @@
 {
-    "title": "Exorcise",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 0,
-    "charge": 1,
-    "element": 7,
-    "rangeType": 2,
-    "range": 1,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 1,
-            "target": 5,
-            "dependency": 0,
-            "result": "Remove Unit, 0.5x Hit Rate"
-        }
-    ],
-    "notes": [
-        0,
-        4
-    ]
+  "title": "Exorcise",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 0,
+  "charge": "Elemental",
+  "element": "Holy",
+  "rangeType": "Constant",
+  "range": 1,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "SType",
+      "target": "Undead",
+      "dependency": "None",
+      "result": "Remove Unit, 0.5x Hit Rate"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Stealable"
+  ]
 }

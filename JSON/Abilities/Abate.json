@@ -1,23 +1,23 @@
 {
-    "title": "Abate",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 32,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 6,
-    "range": 0,
-    "areaType": 3,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 15,
-            "dependency": 0,
-            "result": "Stop Judge"
-        }
-    ],
-    "notes": []
+  "title": "Abate",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 32,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Infinite",
+  "range": 0,
+  "areaType": "Infinite",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Judge",
+      "dependency": "None",
+      "result": "Stop Judge"
+    }
+  ],
+  "notes": []
 }

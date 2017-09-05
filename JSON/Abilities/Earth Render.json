@@ -1,26 +1,26 @@
 {
-    "title": "Earth Render",
-    "powerType": 2,
-    "power": 34,
-    "mpCost": 0,
-    "charge": 1,
-    "element": 5,
-    "rangeType": 4,
-    "range": 0,
-    "areaType": 3,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Damage"
-        }
-    ],
-    "notes": [
-        0,
-        4
-    ]
+  "title": "Earth Render",
+  "powerType": "WAtk",
+  "power": 34,
+  "mpCost": 0,
+  "charge": "Elemental",
+  "element": "Earth",
+  "rangeType": "Line",
+  "range": 0,
+  "areaType": "Infinite",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Damage"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Stealable"
+  ]
 }

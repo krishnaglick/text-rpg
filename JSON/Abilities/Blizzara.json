@@ -1,30 +1,30 @@
 {
-    "title": "Blizzara",
-    "powerType": 1,
-    "power": 40,
-    "mpCost": 12,
-    "charge": 1,
-    "element": 2,
-    "rangeType": 2,
-    "range": 4,
-    "areaType": 2,
-    "horArea": 1,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Damage"
-        }
-    ],
-    "notes": [
-        0,
-        1,
-        3,
-        4,
-        5,
-        6
-    ]
+  "title": "Blizzara",
+  "powerType": "MPow",
+  "power": 40,
+  "mpCost": 12,
+  "charge": "Elemental",
+  "element": "Ice",
+  "rangeType": "Constant",
+  "range": 4,
+  "areaType": "Specify",
+  "horArea": 1,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Damage"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Reflectable",
+    "Silenceable",
+    "Stealable",
+    "Counter",
+    "Absorb"
+  ]
 }

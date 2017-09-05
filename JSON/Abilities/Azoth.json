@@ -1,27 +1,27 @@
 {
-    "title": "Azoth",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 12,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 6,
-    "range": 0,
-    "areaType": 3,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 1,
-            "target": 4,
-            "dependency": 0,
-            "result": "Inflict Sleep"
-        }
-    ],
-    "notes": [
-        0,
-        3,
-        6
-    ]
+  "title": "Azoth",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 12,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Infinite",
+  "range": 0,
+  "areaType": "Infinite",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "SType",
+      "target": "Enemy",
+      "dependency": "None",
+      "result": "Inflict Sleep"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Silenceable",
+    "Absorb"
+  ]
 }

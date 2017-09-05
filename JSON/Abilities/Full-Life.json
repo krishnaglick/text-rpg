@@ -1,33 +1,33 @@
 {
-    "title": "Full-Life",
-    "powerType": 1,
-    "power": 100,
-    "mpCost": 20,
-    "charge": 1,
-    "element": 7,
-    "rangeType": 2,
-    "range": 4,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 1,
-            "dependency": 0,
-            "result": "Revive to full HP"
-        },
-        {
-            "rate": 0,
-            "target": 5,
-            "dependency": 0,
-            "result": "100% Damage"
-        }
-    ],
-    "notes": [
-        1,
-        3,
-        4
-    ]
+  "title": "Full-Life",
+  "powerType": "MPow",
+  "power": 100,
+  "mpCost": 20,
+  "charge": "Elemental",
+  "element": "Holy",
+  "rangeType": "Constant",
+  "range": 4,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "KOedUnit",
+      "dependency": "None",
+      "result": "Revive to full HP"
+    },
+    {
+      "rate": "AType",
+      "target": "Undead",
+      "dependency": "None",
+      "result": "100% Damage"
+    }
+  ],
+  "notes": [
+    "Reflectable",
+    "Silenceable",
+    "Stealable"
+  ]
 }

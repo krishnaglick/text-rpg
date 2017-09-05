@@ -1,31 +1,31 @@
 {
-    "title": "Life Render",
-    "powerType": 3,
-    "power": 0,
-    "mpCost": 0,
-    "charge": 2,
-    "element": 0,
-    "rangeType": 3,
-    "range": 0,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Damage"
-        },
-        {
-            "rate": 1,
-            "target": 6,
-            "dependency": 5,
-            "result": " Inflict Doom"
-        }
-    ],
-    "notes": [
-        0
-    ]
+  "title": "Life Render",
+  "powerType": "Weapon",
+  "power": 0,
+  "mpCost": 0,
+  "charge": "Weapon",
+  "element": "None",
+  "rangeType": "Weapon",
+  "range": 0,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Damage"
+    },
+    {
+      "rate": "SType",
+      "target": "NonUndead",
+      "dependency": "Eff1Dep",
+      "result": " Inflict Doom"
+    }
+  ],
+  "notes": [
+    "Offensive"
+  ]
 }

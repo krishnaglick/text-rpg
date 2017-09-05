@@ -1,31 +1,31 @@
 {
-    "title": "Devil Gaze",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 0,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 1,
-    "range": 0,
-    "areaType": 2,
-    "horArea": 1,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 4,
-            "result": " Inflict Blind"
-        },
-        {
-            "rate": 1,
-            "target": 0,
-            "dependency": 5,
-            "result": " Inflict Silence"
-        }
-    ],
-    "notes": [
-        0
-    ]
+  "title": "Devil Gaze",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 0,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Cone",
+  "range": 0,
+  "areaType": "Specify",
+  "horArea": 1,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "Eye2Eye",
+      "result": " Inflict Blind"
+    },
+    {
+      "rate": "SType",
+      "target": "Default",
+      "dependency": "Eff1Dep",
+      "result": " Inflict Silence"
+    }
+  ],
+  "notes": [
+    "Offensive"
+  ]
 }

@@ -1,31 +1,31 @@
 {
-    "title": "First Aid",
-    "powerType": 1,
-    "power": 25,
-    "mpCost": 0,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 0,
-    "range": 0,
-    "areaType": 0,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Heal"
-        },
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 0,
-            "result": "Esuna"
-        }
-    ],
-    "notes": [
-        4
-    ]
+  "title": "First Aid",
+  "powerType": "MPow",
+  "power": 25,
+  "mpCost": 0,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Self",
+  "range": 0,
+  "areaType": "Self",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Heal"
+    },
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Esuna"
+    }
+  ],
+  "notes": [
+    "Stealable"
+  ]
 }

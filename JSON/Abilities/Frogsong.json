@@ -1,27 +1,27 @@
 {
-    "title": "Frogsong",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 18,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 2,
-    "range": 4,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 1,
-            "target": 0,
-            "dependency": 0,
-            "result": "Inflict Frog"
-        }
-    ],
-    "notes": [
-        0,
-        3,
-        4
-    ]
+  "title": "Frogsong",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 18,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Constant",
+  "range": 4,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "SType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Inflict Frog"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Silenceable",
+    "Stealable"
+  ]
 }

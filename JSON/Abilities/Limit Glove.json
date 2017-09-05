@@ -1,26 +1,26 @@
 {
-    "title": "Limit Glove",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 4,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 2,
-    "range": 1,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 0,
-            "result": "Limit Glove Effect"
-        }
-    ],
-    "notes": [
-        0,
-        6
-    ]
+  "title": "Limit Glove",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 4,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Constant",
+  "range": 1,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Limit Glove Effect"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Absorb"
+  ]
 }

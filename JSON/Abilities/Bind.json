@@ -1,25 +1,25 @@
 {
-    "title": "Bind",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 16,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 2,
-    "range": 3,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 1,
-            "target": 0,
-            "dependency": 0,
-            "result": "Inflict Disable/Immobilize"
-        }
-    ],
-    "notes": [
-        0
-    ]
+  "title": "Bind",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 16,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Constant",
+  "range": 3,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "SType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Inflict Disable/Immobilize"
+    }
+  ],
+  "notes": [
+    "Offensive"
+  ]
 }

@@ -1,37 +1,37 @@
 {
-    "title": "Elixir",
-    "powerType": 1,
-    "power": 100,
-    "mpCost": 0,
-    "charge": 1,
-    "element": 7,
-    "rangeType": 2,
-    "range": 1,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 6,
-            "dependency": 0,
-            "result": "Heal to full HP"
-        },
-        {
-            "rate": 2,
-            "target": 6,
-            "dependency": 0,
-            "result": "Heal to full MP"
-        },
-        {
-            "rate": 0,
-            "target": 5,
-            "dependency": 0,
-            "result": "100% Damage"
-        }
-    ],
-    "notes": [
-        4
-    ]
+  "title": "Elixir",
+  "powerType": "MPow",
+  "power": 100,
+  "mpCost": 0,
+  "charge": "Elemental",
+  "element": "Holy",
+  "rangeType": "Constant",
+  "range": 1,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "NonUndead",
+      "dependency": "None",
+      "result": "Heal to full HP"
+    },
+    {
+      "rate": "Full",
+      "target": "NonUndead",
+      "dependency": "None",
+      "result": "Heal to full MP"
+    },
+    {
+      "rate": "AType",
+      "target": "Undead",
+      "dependency": "None",
+      "result": "100% Damage"
+    }
+  ],
+  "notes": [
+    "Stealable"
+  ]
 }

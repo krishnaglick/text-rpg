@@ -1,32 +1,32 @@
 {
-    "title": "Last Breath",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 32,
-    "charge": 1,
-    "element": 8,
-    "rangeType": 2,
-    "range": 1,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 5,
-            "dependency": 0,
-            "result": "Heal to full HP"
-        },
-        {
-            "rate": 1,
-            "target": 6,
-            "dependency": 0,
-            "result": "Inflict KO"
-        }
-    ],
-    "notes": [
-        0,
-        4
-    ]
+  "title": "Last Breath",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 32,
+  "charge": "Elemental",
+  "element": "Dark",
+  "rangeType": "Constant",
+  "range": 1,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Undead",
+      "dependency": "None",
+      "result": "Heal to full HP"
+    },
+    {
+      "rate": "SType",
+      "target": "NonUndead",
+      "dependency": "None",
+      "result": "Inflict KO"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Stealable"
+  ]
 }

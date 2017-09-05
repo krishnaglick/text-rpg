@@ -1,35 +1,35 @@
 {
-    "title": "Drain",
-    "powerType": 1,
-    "power": 30,
-    "mpCost": 12,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 2,
-    "range": 4,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Damage, capped to Target's Max HP"
-        },
-        {
-            "rate": 2,
-            "target": 2,
-            "dependency": 5,
-            "result": " Heal Eff1 Damage"
-        }
-    ],
-    "notes": [
-        0,
-        3,
-        4,
-        5,
-        6
-    ]
+  "title": "Drain",
+  "powerType": "MPow",
+  "power": 30,
+  "mpCost": 12,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Constant",
+  "range": 4,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Damage, capped to Target's Max HP"
+    },
+    {
+      "rate": "Full",
+      "target": "Self",
+      "dependency": "Eff1Dep",
+      "result": " Heal Eff1 Damage"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Silenceable",
+    "Stealable",
+    "Counter",
+    "Absorb"
+  ]
 }

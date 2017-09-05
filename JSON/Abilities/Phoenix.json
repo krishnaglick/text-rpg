@@ -1,32 +1,32 @@
 {
-    "title": "Phoenix",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 24,
-    "charge": 1,
-    "element": 7,
-    "rangeType": 2,
-    "range": 4,
-    "areaType": 2,
-    "horArea": 2,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 1,
-            "dependency": 0,
-            "result": "Revive to full HP"
-        },
-        {
-            "rate": 2,
-            "target": 5,
-            "dependency": 0,
-            "result": "(Target's Max HP) Damage"
-        }
-    ],
-    "notes": [
-        3,
-        4
-    ]
+  "title": "Phoenix",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 24,
+  "charge": "Elemental",
+  "element": "Holy",
+  "rangeType": "Constant",
+  "range": 4,
+  "areaType": "Specify",
+  "horArea": 2,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "KOedUnit",
+      "dependency": "None",
+      "result": "Revive to full HP"
+    },
+    {
+      "rate": "Full",
+      "target": "Undead",
+      "dependency": "None",
+      "result": "(Target's Max HP) Damage"
+    }
+  ],
+  "notes": [
+    "Silenceable",
+    "Stealable"
+  ]
 }

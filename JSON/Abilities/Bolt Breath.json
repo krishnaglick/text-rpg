@@ -1,26 +1,26 @@
 {
-    "title": "Bolt Breath",
-    "powerType": 2,
-    "power": 40,
-    "mpCost": 0,
-    "charge": 1,
-    "element": 3,
-    "rangeType": 1,
-    "range": 0,
-    "areaType": 2,
-    "horArea": 1,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Damage"
-        }
-    ],
-    "notes": [
-        0,
-        4
-    ]
+  "title": "Bolt Breath",
+  "powerType": "WAtk",
+  "power": 40,
+  "mpCost": 0,
+  "charge": "Elemental",
+  "element": "Lightning",
+  "rangeType": "Cone",
+  "range": 0,
+  "areaType": "Specify",
+  "horArea": 1,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Damage"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Stealable"
+  ]
 }

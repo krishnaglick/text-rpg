@@ -1,27 +1,27 @@
 {
-    "title": "Oblivion",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 24,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 2,
-    "range": 1,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 1,
-            "target": 0,
-            "dependency": 0,
-            "result": "Inflict Addle"
-        }
-    ],
-    "notes": [
-        0,
-        3,
-        4
-    ]
+  "title": "Oblivion",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 24,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Constant",
+  "range": 1,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "SType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Inflict Addle"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Silenceable",
+    "Stealable"
+  ]
 }

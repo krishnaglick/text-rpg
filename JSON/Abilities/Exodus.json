@@ -1,25 +1,25 @@
 {
-    "title": "Exodus",
-    "powerType": 1,
-    "power": 85,
-    "mpCost": 0,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 6,
-    "range": 0,
-    "areaType": 3,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 4,
-            "dependency": 0,
-            "result": "100% Damage to MP"
-        }
-    ],
-    "notes": [
-        0
-    ]
+  "title": "Exodus",
+  "powerType": "MPow",
+  "power": 85,
+  "mpCost": 0,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Infinite",
+  "range": 0,
+  "areaType": "Infinite",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Enemy",
+      "dependency": "None",
+      "result": "100% Damage to MP"
+    }
+  ],
+  "notes": [
+    "Offensive"
+  ]
 }

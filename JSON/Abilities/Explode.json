@@ -1,27 +1,27 @@
 {
-    "title": "Explode",
-    "powerType": 1,
-    "power": 40,
-    "mpCost": 24,
-    "charge": 1,
-    "element": 1,
-    "rangeType": 2,
-    "range": 3,
-    "areaType": 2,
-    "horArea": 1,
-    "verArea": 1,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Damage"
-        }
-    ],
-    "notes": [
-        0,
-        3,
-        6
-    ]
+  "title": "Explode",
+  "powerType": "MPow",
+  "power": 40,
+  "mpCost": 24,
+  "charge": "Elemental",
+  "element": "Fire",
+  "rangeType": "Constant",
+  "range": 3,
+  "areaType": "Specify",
+  "horArea": 1,
+  "verArea": 1,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Damage"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Silenceable",
+    "Absorb"
+  ]
 }

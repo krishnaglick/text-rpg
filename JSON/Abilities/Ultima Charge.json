@@ -1,26 +1,26 @@
 {
-    "title": "Ultima Charge",
-    "powerType": 3,
-    "power": 0,
-    "mpCost": 60,
-    "charge": 2,
-    "element": 0,
-    "rangeType": 3,
-    "range": 0,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "300% Damage"
-        }
-    ],
-    "notes": [
-        0,
-        6
-    ]
+  "title": "Ultima Charge",
+  "powerType": "Weapon",
+  "power": 0,
+  "mpCost": 60,
+  "charge": "Weapon",
+  "element": "None",
+  "rangeType": "Weapon",
+  "range": 0,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "300% Damage"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Absorb"
+  ]
 }

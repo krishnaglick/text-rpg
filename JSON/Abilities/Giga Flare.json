@@ -1,29 +1,29 @@
 {
-    "title": "Giga Flare",
-    "powerType": 1,
-    "power": 65,
-    "mpCost": 40,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 2,
-    "range": 3,
-    "areaType": 2,
-    "horArea": 1,
-    "verArea": 1,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Damage"
-        }
-    ],
-    "notes": [
-        0,
-        3,
-        4,
-        5,
-        6
-    ]
+  "title": "Giga Flare",
+  "powerType": "MPow",
+  "power": 65,
+  "mpCost": 40,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Constant",
+  "range": 3,
+  "areaType": "Specify",
+  "horArea": 1,
+  "verArea": 1,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Damage"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Silenceable",
+    "Stealable",
+    "Counter",
+    "Absorb"
+  ]
 }

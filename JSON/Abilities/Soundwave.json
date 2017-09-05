@@ -1,25 +1,25 @@
 {
-    "title": "Soundwave",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 0,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 2,
-    "range": 3,
-    "areaType": 2,
-    "horArea": 1,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 0,
-            "result": "Soundwave Effect"
-        }
-    ],
-    "notes": [
-        3
-    ]
+  "title": "Soundwave",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 0,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Constant",
+  "range": 3,
+  "areaType": "Specify",
+  "horArea": 1,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Soundwave Effect"
+    }
+  ],
+  "notes": [
+    "Silenceable"
+  ]
 }

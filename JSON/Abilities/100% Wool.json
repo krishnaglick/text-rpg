@@ -1,32 +1,32 @@
 {
-    "title": "100% Wool",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 8,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 0,
-    "range": 0,
-    "areaType": 0,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 0,
-            "result": "Inflict Shell"
-        },
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 0,
-            "result": "Inflict Protect"
-        }
-    ],
-    "notes": [
-        3,
-        4
-    ]
+  "title": "100% Wool",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 8,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Self",
+  "range": 0,
+  "areaType": "Self",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Inflict Shell"
+    },
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Inflict Protect"
+    }
+  ],
+  "notes": [
+    "Silenceable",
+    "Stealable"
+  ]
 }

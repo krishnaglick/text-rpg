@@ -1,25 +1,25 @@
 {
-    "title": "Blaster",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 0,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 2,
-    "range": 3,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 1,
-            "target": 0,
-            "dependency": 0,
-            "result": "Inflict Petrify"
-        }
-    ],
-    "notes": [
-        0
-    ]
+  "title": "Blaster",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 0,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Constant",
+  "range": 3,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "SType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Inflict Petrify"
+    }
+  ],
+  "notes": [
+    "Offensive"
+  ]
 }

@@ -7,12 +7,12 @@ const classesPath = path.resolve(__dirname + '/../abilities');
 if(!fs.existsSync(classesPath))
   fs.mkdirSync(classesPath);
 
-const { add, edit, remove } = {};
+const { add, edit, remove } = require('../helpers/abilities');
 
 const menuOptions = {
-  'Add Class': add,
-  'Edit Class': edit,
-  'Remove Class': remove
+  'Add Ability': add,
+  'Edit Ability': edit,
+  'Remove Ability': remove
 };
 
 exports.action = async (goBack) => {

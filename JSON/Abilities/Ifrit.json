@@ -1,29 +1,29 @@
 {
-    "title": "Ifrit",
-    "powerType": 1,
-    "power": 40,
-    "mpCost": 18,
-    "charge": 1,
-    "element": 1,
-    "rangeType": 2,
-    "range": 4,
-    "areaType": 2,
-    "horArea": 2,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Damage"
-        }
-    ],
-    "notes": [
-        0,
-        3,
-        4,
-        5,
-        6
-    ]
+  "title": "Ifrit",
+  "powerType": "MPow",
+  "power": 40,
+  "mpCost": 18,
+  "charge": "Elemental",
+  "element": "Fire",
+  "rangeType": "Constant",
+  "range": 4,
+  "areaType": "Specify",
+  "horArea": 2,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Damage"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Silenceable",
+    "Stealable",
+    "Counter",
+    "Absorb"
+  ]
 }

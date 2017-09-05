@@ -1,26 +1,26 @@
 {
-    "title": "Dispel",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 12,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 2,
-    "range": 3,
-    "areaType": 2,
-    "horArea": 1,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 0,
-            "result": "Dispel"
-        }
-    ],
-    "notes": [
-        3,
-        4
-    ]
+  "title": "Dispel",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 12,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Constant",
+  "range": 3,
+  "areaType": "Specify",
+  "horArea": 1,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Dispel"
+    }
+  ],
+  "notes": [
+    "Silenceable",
+    "Stealable"
+  ]
 }

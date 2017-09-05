@@ -1,31 +1,31 @@
 {
-    "title": "Nurse",
-    "powerType": 1,
-    "power": 30,
-    "mpCost": 0,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 0,
-    "range": 0,
-    "areaType": 2,
-    "horArea": 1,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Heal"
-        },
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 0,
-            "result": "Esuna"
-        }
-    ],
-    "notes": [
-        4
-    ]
+  "title": "Nurse",
+  "powerType": "MPow",
+  "power": 30,
+  "mpCost": 0,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Self",
+  "range": 0,
+  "areaType": "Specify",
+  "horArea": 1,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Heal"
+    },
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Esuna"
+    }
+  ],
+  "notes": [
+    "Stealable"
+  ]
 }

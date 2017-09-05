@@ -1,40 +1,40 @@
 {
-    "title": "Earth Veil",
-    "powerType": 1,
-    "power": 15,
-    "mpCost": 4,
-    "charge": 1,
-    "element": 5,
-    "rangeType": 2,
-    "range": 4,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Damage"
-        },
-        {
-            "rate": 1,
-            "target": 0,
-            "dependency": 5,
-            "result": " Inflict Slow"
-        },
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 5,
-            "result": " Delay Unit"
-        }
-    ],
-    "notes": [
-        0,
-        3,
-        4,
-        6
-    ]
+  "title": "Earth Veil",
+  "powerType": "MPow",
+  "power": 15,
+  "mpCost": 4,
+  "charge": "Elemental",
+  "element": "Earth",
+  "rangeType": "Constant",
+  "range": 4,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Damage"
+    },
+    {
+      "rate": "SType",
+      "target": "Default",
+      "dependency": "Eff1Dep",
+      "result": " Inflict Slow"
+    },
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "Eff1Dep",
+      "result": " Delay Unit"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Silenceable",
+    "Stealable",
+    "Absorb"
+  ]
 }

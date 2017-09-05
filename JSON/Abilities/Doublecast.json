@@ -1,18 +1,18 @@
 {
-    "title": "Doublecast",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 0,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 0,
-    "range": 0,
-    "areaType": 2,
-    "horArea": 2,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [],
-    "notes": [
-        3
-    ]
+  "title": "Doublecast",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 0,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Self",
+  "range": 0,
+  "areaType": "Specify",
+  "horArea": 2,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [],
+  "notes": [
+    "Silenceable"
+  ]
 }

@@ -1,27 +1,27 @@
 {
-    "title": "Downsize",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 24,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 3,
-    "range": 0,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "[(Target's HP + 1) / 2] Damage"
-        }
-    ],
-    "notes": [
-        0,
-        4,
-        6
-    ]
+  "title": "Downsize",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 24,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Weapon",
+  "range": 0,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "[(Target's HP + 1) / 2] Damage"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Stealable",
+    "Absorb"
+  ]
 }

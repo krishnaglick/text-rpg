@@ -1,26 +1,26 @@
 {
-    "title": "Earth Heal",
-    "powerType": 1,
-    "power": 40,
-    "mpCost": 12,
-    "charge": 1,
-    "element": 5,
-    "rangeType": 2,
-    "range": 4,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Heal"
-        }
-    ],
-    "notes": [
-        3,
-        4
-    ]
+  "title": "Earth Heal",
+  "powerType": "MPow",
+  "power": 40,
+  "mpCost": 12,
+  "charge": "Elemental",
+  "element": "Earth",
+  "rangeType": "Constant",
+  "range": 4,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Heal"
+    }
+  ],
+  "notes": [
+    "Silenceable",
+    "Stealable"
+  ]
 }

@@ -1,32 +1,32 @@
 {
-    "title": "Mutilate",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 18,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 2,
-    "range": 1,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "Mutilate Effect"
-        },
-        {
-            "rate": 2,
-            "target": 2,
-            "dependency": 5,
-            "result": " Heal Eff1 Damage"
-        }
-    ],
-    "notes": [
-        0,
-        6
-    ]
+  "title": "Mutilate",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 18,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Constant",
+  "range": 1,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Mutilate Effect"
+    },
+    {
+      "rate": "Full",
+      "target": "Self",
+      "dependency": "Eff1Dep",
+      "result": " Heal Eff1 Damage"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Absorb"
+  ]
 }

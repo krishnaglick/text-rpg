@@ -1,25 +1,25 @@
 {
-    "title": "Gold Battery",
-    "powerType": 1,
-    "power": 40,
-    "mpCost": 12,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 6,
-    "range": 0,
-    "areaType": 3,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 11,
-            "dependency": 0,
-            "result": "100% Heal"
-        }
-    ],
-    "notes": [
-        4
-    ]
+  "title": "Gold Battery",
+  "powerType": "MPow",
+  "power": 40,
+  "mpCost": 12,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Infinite",
+  "range": 0,
+  "areaType": "Infinite",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Gadget",
+      "dependency": "None",
+      "result": "100% Heal"
+    }
+  ],
+  "notes": [
+    "Stealable"
+  ]
 }

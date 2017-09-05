@@ -1,32 +1,32 @@
 {
-    "title": "Rush",
-    "powerType": 3,
-    "power": 0,
-    "mpCost": 0,
-    "charge": 2,
-    "element": 0,
-    "rangeType": 3,
-    "range": 0,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 0,
-            "dependency": 0,
-            "result": "100% Damage"
-        },
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 5,
-            "result": " Knockback"
-        }
-    ],
-    "notes": [
-        0,
-        4
-    ]
+  "title": "Rush",
+  "powerType": "Weapon",
+  "power": 0,
+  "mpCost": 0,
+  "charge": "Weapon",
+  "element": "None",
+  "rangeType": "Weapon",
+  "range": 0,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Default",
+      "dependency": "None",
+      "result": "100% Damage"
+    },
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "Eff1Dep",
+      "result": " Knockback"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Stealable"
+  ]
 }

@@ -1,27 +1,27 @@
 {
-    "title": "Quicken",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 24,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 2,
-    "range": 3,
-    "areaType": 1,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 0,
-            "result": "Inflict Quicken"
-        }
-    ],
-    "notes": [
-        1,
-        3,
-        4
-    ]
+  "title": "Quicken",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 24,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Constant",
+  "range": 3,
+  "areaType": "OneUnit",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Inflict Quicken"
+    }
+  ],
+  "notes": [
+    "Reflectable",
+    "Silenceable",
+    "Stealable"
+  ]
 }

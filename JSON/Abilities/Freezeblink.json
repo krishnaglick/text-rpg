@@ -1,28 +1,28 @@
 {
-    "title": "Freezeblink",
-    "powerType": 1,
-    "power": 20,
-    "mpCost": 32,
-    "charge": 1,
-    "element": 2,
-    "rangeType": 6,
-    "range": 0,
-    "areaType": 3,
-    "horArea": 0,
-    "verArea": 0,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 0,
-            "target": 4,
-            "dependency": 0,
-            "result": "100% Damage"
-        }
-    ],
-    "notes": [
-        0,
-        3,
-        4,
-        6
-    ]
+  "title": "Freezeblink",
+  "powerType": "MPow",
+  "power": 20,
+  "mpCost": 32,
+  "charge": "Elemental",
+  "element": "Ice",
+  "rangeType": "Infinite",
+  "range": 0,
+  "areaType": "Infinite",
+  "horArea": 0,
+  "verArea": 0,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "AType",
+      "target": "Enemy",
+      "dependency": "None",
+      "result": "100% Damage"
+    }
+  ],
+  "notes": [
+    "Offensive",
+    "Silenceable",
+    "Stealable",
+    "Absorb"
+  ]
 }

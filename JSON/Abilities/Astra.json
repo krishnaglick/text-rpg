@@ -1,26 +1,26 @@
 {
-    "title": "Astra",
-    "powerType": 0,
-    "power": 0,
-    "mpCost": 8,
-    "charge": 0,
-    "element": 0,
-    "rangeType": 2,
-    "range": 4,
-    "areaType": 2,
-    "horArea": 1,
-    "verArea": 2,
-    "excludeSelf": false,
-    "effects": [
-        {
-            "rate": 2,
-            "target": 0,
-            "dependency": 0,
-            "result": "Inflict Astra"
-        }
-    ],
-    "notes": [
-        3,
-        4
-    ]
+  "title": "Astra",
+  "powerType": "None",
+  "power": 0,
+  "mpCost": 8,
+  "charge": "None",
+  "element": "None",
+  "rangeType": "Constant",
+  "range": 4,
+  "areaType": "Specify",
+  "horArea": 1,
+  "verArea": 2,
+  "excludeSelf": false,
+  "effects": [
+    {
+      "rate": "Full",
+      "target": "Default",
+      "dependency": "None",
+      "result": "Inflict Astra"
+    }
+  ],
+  "notes": [
+    "Silenceable",
+    "Stealable"
+  ]
 }
