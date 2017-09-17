@@ -7,7 +7,7 @@ const glob = require('glob');
 const ask = require('./ask-question');
 const classesPath = path.resolve(__dirname + '/../classes');
 
-exports.base = class {
+class Base {
   constructor(stats) {
     this.name = '';
     this.lvl = 1;
@@ -82,7 +82,8 @@ exports.base = class {
   get debuffResistance() {
     return (this.stamina * 0.05) + (this.wisdom * 0.05);
   }
-};
+}
+exports.base = Base;
 
 const statCategories = [ 'strength', 'stamina', 'agility', 'intelligence', 'wisdom' ];
 

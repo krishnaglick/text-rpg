@@ -1,0 +1,23 @@
+{
+  "name": "Potato",
+  "notes": [],
+  "range": [
+    "self"
+  ],
+  "scalesWith": [
+    "physicalAtk"
+  ],
+  "element": "none",
+  "targets": [
+    "ko",
+    "self",
+    "ally"
+  ],
+  "targetIncludes": [
+    "undead",
+    "animal"
+  ],
+  "targetExcludes": [
+    "undead"
+  ]
+}
