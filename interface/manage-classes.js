@@ -24,7 +24,7 @@ exports.action = async (goBack) => {
   });
 
   try {
-    menuOptions[choice](() => exports.action(goBack));
+    await menuOptions[choice](() => exports.action(goBack));
   }
   catch(x) {
     console.error(x);

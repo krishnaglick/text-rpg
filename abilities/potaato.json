@@ -1,0 +1,23 @@
+{
+  "name": "potaato",
+  "notes": [
+    "offensive",
+    "reflectable",
+    "ignoreReact",
+    "silencable",
+    "magical"
+  ],
+  "ranges": [
+    "self",
+    "cone",
+    "cross"
+  ],
+  "scalesWith": [
+    ""
+  ],
+  "element": "",
+  "targets": [],
+  "targetIncludes": [],
+  "targetExcludes": [],
+  "range": []
+}

@@ -24,7 +24,13 @@ exports.action = async (goBack) => {
     choices: Object.keys(menuOptions)
   });
 
-  menuOptions[choice](() => exports.action(goBack));
+  try {
+    await menuOptions[choice](() => exports.action(goBack));
+  }
+  catch(x) {
+    console.error(x);
+    exports.action(goBack);
+  }
 };
 
 exports.name = 'Manage Abilities';
